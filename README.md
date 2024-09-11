@@ -41,7 +41,7 @@ Getting Started
 Clone this repository:
  Copy
 git clone https://github.com/kliewerdaniel/golum2.git
-cd golum3
+cd golum2
 
 
 Make the setup script executable:
