@@ -80,9 +80,7 @@ EOF
 echo "Creating .ruby-version file..."
 echo "3.0.0" > .ruby-version
 
-# Step 7: Update Gemfile
-echo "Updating Gemfile..."
-sed -i '1s/^/ruby "3.0.0"\n/' Gemfile
+
 
 # Step 8: Build and run Docker container
 echo "Building and running Docker container..."
